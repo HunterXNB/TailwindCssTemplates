@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Task2 - Tailwind</title>
+  </head>
+  <body
+    class="font-body h-screen max- bg-white text-xl max-md:text-base flex items-center"
+  >
+    <div
+      class="relative p-10 max-md:p-4 h-full mx-auto w-full flex flex-col justify-between items-center"
+    >
+      <h1 class="font-black text-4xl max-md:mb-5 mb-10">
+        PING<span class="text-primaryBlue">.</span>
+      </h1>
+      <div class="text-center">
+        <h2 class="font-light text-neutralGray text-4xl mb-4 max-md:text-xl">
+          We are launching
+          <span class="text-black font-semibold">soon!</span>
+        </h2>
+        <p class="mb-4">Subscribe and get notified</p>
+      </div>
+      <form
+        action=""
+        class="flex w-1/2 justify-between max-md:p-2 max-md:flex-wrap max-md:w-full gap-5 mb-5"
+      >
+        <input
+          type="email"
+          name="email"
+          id="mail"
+          placeholder="Your email address"
+          class="outline-none border-2 w-full rounded-full py-3 px-4 border-paleBlue focus:border-primaryBlue"
+        />
+        <span
+          class="rounded-full max-md:w-full shadow-lg shadow-paleBlue text-center font-light max-md:w-fit whitespace-nowrap w-48 bg-primaryBlue cursor-pointer text-white py-3 px-8"
+          >Notify Me</span
+        >
+      </form>
+
+      <img
+        src="./illustration-dashboard.png"
+        class="md:h-1/2 max-md:w-full"
+        alt=""
+      />
+      <ul class="mt-5 pb-10 flex gap-10 text-primaryBlue text-2xl">
+        <li class="logo">
+          <a
+            href="https://www.facebook.com/profile.php?id=100003942677687"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </li>
+        <li class="logo"><i class="fa-brands fa-twitter"></i></li>
+        <li class="logo"><i class="fa-brands fa-instagram"></i></li>
+      </ul>
+
+      <p class="absolute bottom-4 max-md:bottom-4 text-neutralGray">
+        &copy; Copyright HunterXNB. All rights reserved
+      </p>
+    </div>
+    <script src="./js/all.min.js"></script>
+  </body>
+</html>

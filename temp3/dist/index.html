@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      ul::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 15px;
+        border-color: transparent;
+        position: absolute;
+        top: -29px;
+        right: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="font-inter flex items-center justify-center">
+    <div
+      class="mx-auto flex flex-col justify-evenly p-10 h-screen max-w-5xl 2xl:max-w-7xl max-[950px]:h-fit"
+    >
+      <nav class="flex h-8 justify-between relative mb-10">
+        <img src="./logo.svg" alt="" />
+        <input
+          type="checkbox"
+          name=""
+          id="nav"
+          class="dirty appearance-none peer/laber"
+        />
+        <label for="nav" class="peer-checked/laber:hidden">
+          <img
+            src="./icon-menu.svg"
+            class="min-[950px]:hidden cursor-pointer"
+            alt=""
+        /></label>
+        <label for="nav" class="peer-checked/laber:inline hidden">
+          <img
+            src="./icon-menu-close.svg"
+            class="min-[950px]:hidden cursor-pointer"
+            alt=""
+        /></label>
+        <ul
+          class="flex w-1/2 max-w-sm justify-between max-[950px]:peer-checked/laber:block max-[950px]:hidden max-[950px]:absolute max-[950px]:bg-veryDarkBlue max-[950px]:right-0 max-[950px]:text-left max-[950px]:translate-y-12 min-[950px]:before:hidden before:border-b-veryDarkBlue max-[950px]:p-5"
+        >
+          <li class="links">Home</li>
+          <li class="links">New</li>
+          <li class="links">Popular</li>
+          <li class="links">Trending</li>
+          <li class="links max-[950px]:border-none">Categories</li>
+        </ul>
+      </nav>
+      <div
+        class="min-[950px]:grid min-[950px]:grid-cols-3 min-[950px]:grid-rows-2 min-[950px]:gap-y-3 min-[950px]:gap-x-10 max-[950px]:gap-7 max-[950px]:flex max-[950px]:flex-col"
+      >
+        <div
+          class="min-[950px]:col-span-2 bg-cover max-[950px]:w-full max-[950px]:h-56 bg-pc"
+        ></div>
+        <div
+          class="row-span-2 bg-veryDarkBlue flex flex-col max-[950px]:col-span-2 max-[950px]:p-5 max-[950px]:order-3 justify-evenly text-offWhite p-4 max-lg:p-2"
+        >
+          <h2 class="text-softOrange font-bold text-xl">New</h2>
+          <div class="py-3 border-b border-b-offWhite max-lg:py-1">
+            <h3 class="text-lg font-bold max-lg:text-base">
+              Hydrogen VS Electric Cars
+            </h3>
+            <p class="text-sm text-grayishBlue py-3 max-lg:py-1 max-lg:text-xs">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="py-3 border-b border-b-offWhite max-lg:py-1">
+            <h3 class="text-lg font-bold max-lg:text-base">
+              The Downsides of AI Artistry
+            </h3>
+            <p class="text-sm text-grayishBlue py-3 max-lg:py-1 max-lg:text-xs">
+              What are the possible adverse effects of on-demand AI image
+              generations ?
+            </p>
+          </div>
+          <div class="pt-3 max-lg:pt-1">
+            <h3 class="text-lg font-bold max-lg:text-base">
+              Is VC Funding Drying Up?
+            </h3>
+            <p class="text-sm text-grayishBlue pt-3 max-lg:pt-1 max-lg:text-xs">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+        <div
+          class="min-[950px]:col-span-2 max-[950px]:order-2 gap-x-10 gap-y-5 flex max-[950px]:flex-col"
+        >
+          <h1
+            class="min-[950px]:basis-1/2 max-[950px]:basis-full text-4xl spac font-extrabold"
+          >
+            The Bright Future of Web 3.0?
+          </h1>
+          <div class="min-[950px]:basis-1/2 max-[950px]:basis-full relative">
+            <p class="text-sm">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people.But is it
+              really fulfilling its promise?
+            </p>
+            <span
+              class="bg-softRed text-offWhite py-1 px-4 cursor-pointer mt-5 bottom-0 mt-2 block w-fit"
+              >Read More</span
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-between max-[950px]:flex-col gap-10 max-[950px]:mt-6"
+      >
+        <div class="flex gap-5 w-1/3 max-[950px]:w-full">
+          <img src="./image-retro-pcs.jpg" class="h-36" alt="" />
+          <div class="flex flex-col justify-between">
+            <h4 class="text-grayishBlue text-4xl font-bold">01</h4>
+            <h5 class="font-bold text-lg">Reviving Retro PCs</h5>
+            <p class="text-sm text-grayishBlue">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-5 w-1/3 max-[950px]:w-full">
+          <img src="./image-top-laptops.jpg" class="h-36" alt="" />
+          <div class="flex flex-col justify-between">
+            <h4 class="text-grayishBlue text-4xl font-bold">02</h4>
+            <h5 class="font-bold text-lg">Top 10 Laptops of 2022</h5>
+            <p class="text-sm text-grayishBlue">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="flex gap-5 w-1/3 max-[950px]:w-full">
+          <img src="./image-gaming-growth.jpg" class="h-36" alt="" />
+          <div class="flex flex-col justify-between">
+            <h4 class="text-grayishBlue text-4xl font-bold">03</h4>
+            <h5 class="font-bold text-lg"></h5>
+            The Growth of Gaming
+            <p class="text-sm text-grayishBlue">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

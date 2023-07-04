@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Task1 - Tailwind</title>
+  </head>
+  <body
+    class="flex justify-center items-center font-body h-screen bg-lightGray"
+  >
+    <!-- Start container -->
+    <div class="xl:w-1/2 w-3/4 h-fit rounded-lg overflow-hidden">
+      <div class="h-1/3 md:h-1/2 bg-white p-1 md:p-5 lg:p-7">
+        <h2 class="text-2xl mb-4 md:mb-7 font-bold text-primaryCyan">
+          Join our community
+        </h2>
+        <h4 class="text-primaryYellow font-bold mb-3 md:mb-5 text-xl">
+          30-day, hassle-free money back guarantee
+        </h4>
+        <p class="text-grayishBlue">
+          Gain access to our full library of tutorials along with expert code
+          reviews.Perfect for any developers who are serious about honing their
+          skills
+        </p>
+      </div>
+      <div class="h-2/3 md:h-1/2 flex md:flex-row flex-col text-white">
+        <div
+          class="basis-1/2 bg-primaryCyan max-h-fit p-2 md:p-5 lg:p-7 relative"
+        >
+          <div class="h-3/5">
+            <h3 class="text-2xl font-bold mb-3 md:mb-4">
+              Monthly Subscription
+            </h3>
+            <h4 class="text-4xl font-bold flex items-center mb-3 md:mb-4">
+              $29
+              <span class="text-lightGray text-base font-normal ml-3"
+                >per month</span
+              >
+            </h4>
+            <p class="mb-2">Full access for less than $1 a day</p>
+          </div>
+          <span
+            class="w-full flex items-center justify-center h-2/6 cursor-pointer rounded-lg bg-primaryYellow"
+            >Sign Up</span
+          >
+        </div>
+        <div
+          class="basis-1/2 bg-secondaryCyan p-2 md:p-5 lg:p-7 md:h-full sm:h-1/3"
+        >
+          <h3 class="text-2xl font-bold mb-3 md:mb-4">Why Us</h3>
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer & expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
